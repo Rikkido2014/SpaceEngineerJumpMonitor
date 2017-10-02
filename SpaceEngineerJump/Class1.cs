@@ -1,22 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using VRageMath;
-using VRage.Game;
-using VRage.Library;
-using Sandbox.ModAPI.Interfaces;
-using Sandbox.ModAPI.Ingame;
-using Sandbox.Common;
-using Sandbox.Game;
-using VRage.Collections;
-using VRage.Game.ModAPI.Ingame;
-using SpaceEngineers.Game.ModAPI.Ingame;
 
-namespace SpaceEngineerJump
-{
-    public class Class1 : MyGridProgram
-    {
         public void Main(string argument)
         {
             List<IMyJumpDrive> drives = new List<IMyJumpDrive>();
@@ -80,4 +62,4 @@ namespace SpaceEngineerJump
         }
         public enum Prefix : int { k = 1000, M = 1000000, N = 0 }
     }
-}
+
