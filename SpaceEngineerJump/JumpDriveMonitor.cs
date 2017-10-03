@@ -61,5 +61,5 @@
             return num >= (10 ^ 6) ? Prefix.M : num >= (10 ^ 3) ? Prefix.k : Prefix.N;
         }
         public enum Prefix : int { k = 1000, M = 1000000, N = 0 }
-    }
+    
 
